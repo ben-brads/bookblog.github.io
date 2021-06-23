@@ -30,15 +30,15 @@ hr {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 50px;
-    height: 20vh;
+    
+    height: 33%;
     width: 70vw;
     text-align: center;
 }
 .book-container {
 
     display: grid;
-    padding: 20px;
+    padding: 50px;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(200px, auto));
     grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
