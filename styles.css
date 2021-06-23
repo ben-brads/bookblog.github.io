@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'MedievalSharp';
+    src: url('rsrcs/MedievalSharp.woff2') format('woff2'),
+        url('MedievalSharp.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+#title {
+    font-family: "MedievalSharp";
+    color: white;
+    font-size: 3.2vw;
+    
+        
+}
+body {
+    margin: auto 0;
+    background: linear-gradient(to right, rgb(39, 30, 77), rgb(16, 37, 86));
+}
+hr {
+    width: 100%;
+}
+#intro-blurb {
+    font-family: "MedievalSharp";
+    color: white;
+    margin: auto;
+    font-size: 3vw;    
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+    height: 20vh;
+    width: 70vw;
+    text-align: center;
+}
+.book-container {
+
+    display: grid;
+    padding: 20px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    justify-content: center;
+
+    
+}
+.img-block {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-block:hover {
+    transform: scale(1.3);
+}
+
